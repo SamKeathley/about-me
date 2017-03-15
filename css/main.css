@@ -13,13 +13,20 @@ footer {
     margin: 50px 0;
 }
 
+.navbar-inverse .navbar-collapse {
+  padding-top: 4%;
+}
+
 h2 {
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black;
 }
 
 .hero{
-  background-color: #E2DEDF
+  background-color: #E2DEDF;
+  padding-top: 4%;
+  padding-bottom: 4%;
+
 }
 
 .potato {
