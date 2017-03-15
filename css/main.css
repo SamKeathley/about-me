@@ -18,15 +18,15 @@ h2 {
   color: black;
 }
 
+.hero{
+  background-color: #E2DEDF
+}
+
 .potato {
   max-width: 100%;
   height: 432px;
 }
 
-/*.item > img {
-  height: 120px;
-  width: 260px;
-}*/
 
 .item {
   object-fit: cover;
@@ -44,6 +44,25 @@ h2 {
 #cat {
     width: 100%;
 }​
+
+
+
+
+/*#lightBoxBig {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0.5;
+  display: none;
+}
+
+#lightBox {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  opacity: 0.5;
+  display: none;
+}*/
 
 /*font-family: 'Josefin Sans', sans-serif;
 font-family: 'Ubuntu Condensed', sans-serif;*/
