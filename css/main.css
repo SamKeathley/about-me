@@ -17,16 +17,48 @@ footer {
   padding-top: 4%;
 }
 
+
 h2 {
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black;
 }
 
-.hero{
+.navBar {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.logo {
+  float: left;
+  margin: 0 auto;
+  padding-left: 30px;
+}
+
+.nav-link {
+  display: inline;
+  padding: 5px;
+}
+
+.nav-link a {
+  color: #324243;
+  text-decoration: none;
+}
+
+nav ul {
+  float: right;
+  list-style-type: none;
+  padding-right: 30px;
+  margin-top: 30px;
+}
+
+.hero {
   background-color: #E2DEDF;
   padding-top: 4%;
   padding-bottom: 4%;
+}
 
+form {
+  display: inline-block;
 }
 
 .potato {
@@ -55,21 +87,7 @@ h2 {
 
 
 
-/*#lightBoxBig {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  opacity: 0.5;
-  display: none;
-}
 
-#lightBox {
-  position: absolute;
-  top: 25%;
-  left: 40%;
-  opacity: 0.5;
-  display: none;
-}*/
 
 /*font-family: 'Josefin Sans', sans-serif;
 font-family: 'Ubuntu Condensed', sans-serif;*/

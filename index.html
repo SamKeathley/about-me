@@ -8,35 +8,22 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <div class="row">
-      <div class="col-md-offset-1 col-md-10">
-        <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
-
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-bar" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Sam</a>
-            </div>
-
-            <div class="collapse navbar-collapse" id="collapsed-bar">
-
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-
-              </ul>
-            </div>
+    <header>
+      <section class="navBar">
+        <nav class="nav">
+          <div class="logo pull-left">
+            <h2>SAM</h2>
           </div>
+          <ul>
+            <li class="nav-link"><a href="#about">ABOUT</a></li>
+            <li class="nav-link"><a href="#projects">PROJECTS</a></li>
+            <li class="nav-link"><a href="#contact">CONTACT</a></li>
+          </ul>
         </nav>
-      </div>
-    </div>
-    <section class="hero">
+      </section>
+    </header>
+
+    <section id="about" class="hero">
       <div class="row">
         <div class="col-md-offset-4 col-md-4">
           <img src="http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg" alt="cat" id="cat">
@@ -56,21 +43,17 @@
       </div>
     </section>
 
-    <section class="projects">
-    <h2>Projects</h2>
-    <!-- <div id="lightBoxBig"> </div>
-    <div id="lightBox"> -->
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+
       <div class="container">
-        <section class="row">
+        <div class="row">
           <div class"col-sm-offset-2 col-sm-8">
-
             <div id="myCarousel" class="carousel slide col-xs-offset-1 col-xs-10" data-ride="carousel">
-
               <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
               </ol>
-
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
                   <span><img src="test/kitten.jpg" alt="kitten" class="img-responsive center-block potato"/></span>
@@ -78,7 +61,6 @@
                     <h3>Kitten</h3>
                   </div>
                 </div>
-
                 <div class="item">
                   <span><img src="test/bella.jpg" alt="bella" class="img-responsive center-block potato"/></span>
                   <div class="carousel-caption ">
@@ -89,32 +71,37 @@
               <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
                 </span>
-                <!--Accessibility note-->
                 <span class="sr-only">Previous</span>
               </a>
-
               <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
                 </span>
-                <!--Accessibility note-->
                 <span class="sr-only">Next</span>
               </a>
             </div>
-          </section>
+          </div>
         </div>
       </div>
-    <!-- </div> -->
     </section>
 
-    <section class="contact">
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
       <div class="row">
-        <div class="col-md-offset-4 col-md-6">
-          <h2>Contact Me</h2>
+        <div class="col-md-offset-2 col-md-">
 
           <form action="index.html" method="post">
-            <input type="text" name="name" value="" placeholder="Your name">
-            <input type="email" name="contact" value="" placeholder="Your Email Address">
-            <textarea name="name" rows="8" cols="80" placeholder="Questions/comments"></textarea>
+            <div class="form-group">
+              <label for="name">Your Name:</label>
+              <input type="text" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="contact">Email Address:</label>
+              <input type="email" name="contact" placeholder="Your Email Address" required>
+            </div>
+            <div class="form-group">
+              <label for="comment">Questions/Comments:</label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
             <input type="submit" value="Submit" class="button">
           </form>
         </div>
