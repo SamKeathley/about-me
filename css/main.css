@@ -14,9 +14,7 @@ body {
 }
 
 .footer {
-  margin: 50px 0;
   overflow: hidden;
-  margin-top: 1.5rem;
   padding: 30px 25px 33px 25px;
   background-color: #324243;
   color: #E2DEDF;
@@ -25,20 +23,14 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   height: 80px;
   width: 100%;
-  bottom:0;
-  left:0;
-  right:0;
   position: absolute;
 }
 
-#icons {
-  list-style: none;
-  text-decoration: none;
+.fa {
   display: inline-block;
+  font-size: inherit;
   float: right;
-  position: relative;
-  color: #E2DEDF;
-  padding-right: 1rem 0;
+  text-rendering: auto;
 }
 
 h1, blockquote {
@@ -87,6 +79,16 @@ h1, blockquote {
 
 form {
   display: inline-block;
+}
+
+.btn-danger{
+  background-color: #324243;
+  color: #E2DEDF;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #687C7B;
 }
 
 .potato {
