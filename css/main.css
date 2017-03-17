@@ -41,11 +41,8 @@ footer span{
 }
 
 .fa {
-  display: inline-block;
   color: #E2DEDF;
-  font-size: .9rem;
-  margin-right: .3rem;
-  float: right;
+  margin: 0 15px;
 }
 
 h1, blockquote {
@@ -67,7 +64,7 @@ h1, blockquote {
 	color: white;
 }
 
-.navbar-brand, .navbar-inverse .navbar-nav > li > a {
+#brand, .navbar-inverse .navbar-nav > li > a {
 	color: #E2DEDF;
 	font-family: var(--secondary-font);
 	font-size: 1.7em;
