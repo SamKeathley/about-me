@@ -1,40 +1,41 @@
+:root {
+  --secondary-font: 'Josefin Sans', sans-serif;
+}
+
 html {
     height: 100%;
-    font-family: 'Ubuntu Condensed', sans-serif;
     position: relative;
 }
 
 body {
+  font-family: 'Ubuntu Condensed', sans-serif;
   color: #324243;
   text-align: center;
   background: #BDBBBE;
-  align-self: center;
   padding-top: 70px;
   margin-bottom: 60px;
 }
 
 .footer {
-  overflow: hidden;
-  padding: 30px 25px 33px 25px;
+  padding: 30px;
   background-color: #324243;
   color: #E2DEDF;
   text-align: left;
   font-size: 1.7em;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: var(--secondary-font);
   height: 80px;
   width: 100%;
   position: absolute;
 }
+.footer > p {
+  display: inline;
+}
 
 .fa {
-  display: inline-block;
-  font-size: inherit;
-  float: right;
-  text-rendering: auto;
 }
 
 h1, blockquote {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: var(--secondary-font);
   color: black;
   font-weight: 500;
 }
@@ -54,10 +55,10 @@ h1, blockquote {
 
 .navbar-brand, .navbar-inverse .navbar-nav > li > a {
 	color: #E2DEDF;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: var(--secondary-font);
 	font-size: 1.7em;
 	font-weight: 300;
-	padding: 30px 25px 33px 25px;
+	padding: 30px;
   text-decoration: none;
 }
 
@@ -112,12 +113,4 @@ form {
 
 #cat {
     width: 100%;
-}​
-
-
-
-
-
-
-/*font-family: 'Josefin Sans', sans-serif;
-font-family: 'Ubuntu Condensed', sans-serif;*/
+}
