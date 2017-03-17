@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 body {
@@ -8,52 +8,52 @@ body {
   text-align: center;
   background: #BDBBBE;
   align-self: center;
+  padding-top: 70px;
 }
 footer {
     margin: 50px 0;
 }
 
-.navbar-inverse .navbar-collapse {
-  padding-top: 4%;
-}
-
-
-h2 {
-  font-family: 'Ubuntu Condensed', sans-serif;
+h1, blockquote {
+  font-family: 'Josefin Sans', sans-serif;
   color: black;
+  font-weight: 500;
 }
 
-.navBar {
-  margin-right: -15px;
-  margin-left: -15px;
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	min-height: 80px;
 }
 
-.logo {
-  float: left;
-  margin: 0 auto;
-  padding-left: 30px;
+.nav li {
+	display: inline;
+	color: white;
 }
 
-.nav-link {
-  display: inline;
-  padding: 5px;
-}
-
-.nav-link a {
-  color: #324243;
+.navbar-brand, .navbar-inverse .navbar-nav > li > a {
+	color: #E2DEDF;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.7em;
+	font-weight: 300;
+	padding: 30px 25px 33px 25px;
   text-decoration: none;
 }
 
-nav ul {
-  float: right;
-  list-style-type: none;
-  padding-right: 30px;
-  margin-top: 30px;
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #687C7B;
+	transition: 0.7s all linear;
+	height: 100%;
 }
 
-.hero {
+.hero, .testimonials{
   background-color: #E2DEDF;
   padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.art, .contact{
   padding-bottom: 4%;
 }
 

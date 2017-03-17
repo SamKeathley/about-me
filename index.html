@@ -9,26 +9,49 @@
   </head>
   <body>
     <header>
-      <section class="navBar">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-bar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">SAM</a>
+          </div>
+          <div class="collapse navbar-collapse" id="collapsed-bar">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="nav-link"><a href="#about">ABOUT</a></li>
+              <li class="nav-link"><a href="#art">ARTWORK</a></li>
+              <li class="nav-link"><a href="#testimonials">TESTIMONIALS</a></li>
+              <li class="nav-link"><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- <section class="navBar">
         <nav class="nav">
           <div class="logo pull-left">
             <h2>SAM</h2>
           </div>
           <ul>
-            <li class="nav-link"><a href="#about">ABOUT</a></li>
-            <li class="nav-link"><a href="#art">ARTWORK</a></li>
-            <li class="nav-link"><a href="#projects">PROJECTS</a></li>
-            <li class="nav-link"><a href="#contact">CONTACT</a></li>
+            <li class="nav-link"><a href="#about" class="smoothScroll">ABOUT</a></li>
+            <li class="nav-link"><a href="#art" class="smoothScroll">ARTWORK</a></li>
+            <li class="nav-link"><a href="#projects" class="smoothScroll">PROJECTS</a></li>
+            <li class="nav-link"><a href="#contact" class="smoothScroll">CONTACT</a></li>
           </ul>
+          <div class="handle">Menu</div>
         </nav>
-      </section>
+      </section> -->
     </header>
 
     <section id="about" class="hero">
       <div class="row">
         <div class="col-md-offset-4 col-md-4">
           <img src="http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg" alt="cat" id="cat">
-          <h2>About Me</h2>
+          <h1>About Me</h1>
           <br>
         </div>
       </div>
@@ -45,7 +68,7 @@
     </section>
 
     <section id="art" class="art">
-      <h2>Artwork</h2>
+      <h1>Artwork</h1>
 
       <div class="container">
         <div class="row">
@@ -70,10 +93,10 @@
                   </div>
                 </div>
                 <div class="item">
-                    <span><img src="https://ih1.redbubble.net/image.236407683.9987/ra,unisex_tshirt,x3104,101010:01c5ca27c6,front-c,650,630,900,975-bg,f8f8f8.u1.jpg" alt="kitty" class="img-responsive center-block potato"/></span>
-                    <div class="carousel-caption">
-                      <h3>Kitty Cat</h3>
-                    </div>
+                  <span><img src="https://ih1.redbubble.net/image.236407683.9987/ra,unisex_tshirt,x3104,101010:01c5ca27c6,front-c,650,630,900,975-bg,f8f8f8.u1.jpg" alt="kitty" class="img-responsive center-block potato"/></span>
+                  <div class="carousel-caption">
+                    <h3>Kitty Cat</h3>
+                  </div>
                 </div>
               </div>
               <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -92,16 +115,19 @@
       </div>
     </section>
 
-    <section id="projects" class="projects">
-      <h2>Projects</h2>
-
-      <div>
-
+    <section id="testimonials" class="testimonials">
+      <div class="content-wrapper">
+        <h1>Testimonials</h1>
+        <blockquote>
+          <p id="banana"></p>
+          <p id="author"></p>
+        </blockquote>
       </div>
+
     </section>
 
     <section id="contact" class="contact">
-      <h2>Contact Me</h2>
+      <h1>Contact Me</h1>
       <div class="row">
         <div class="col-md-offset-2 col-md-8">
 
@@ -112,13 +138,13 @@
             </div>
             <div class="form-group">
               <label for="contact">Email Address:</label>
-              <input type="email" name="contact" placeholder="Your Email Address" required>
+              <input class="te" type="email" name="contact" placeholder="Your Email Address" required>
             </div>
             <div class="form-group">
               <label for="comment">Questions/Comments:</label>
               <textarea class="form-control" rows="5" id="comment"></textarea>
             </div>
-            <input type="submit" value="Submit" class="button">
+            <button type="submit" class="btn btn-danger">Submit</button>
           </form>
         </div>
       </div>
