@@ -79,13 +79,12 @@ h1, blockquote {
 	height: 100%;
 }
 
-.hero, .testimonials{
+.hero, .testimonials {
   background-color: #E2DEDF;
-  padding-top: 4%;
-  padding-bottom: 4%;
 }
 
-.art, .contact{
+section {
+  padding-top: 4%;
   padding-bottom: 4%;
 }
 
