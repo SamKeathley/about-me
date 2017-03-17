@@ -1,40 +1,55 @@
+:root {
+  --secondary-font: 'Josefin Sans', sans-serif;
+}
+
 html {
     height: 100%;
-    font-family: 'Ubuntu Condensed', sans-serif;
     position: relative;
 }
 
+header {
+  text-decoration: none;
+}
+
 body {
+  font-family: 'Ubuntu Condensed', sans-serif;
   color: #324243;
   text-align: center;
   background: #BDBBBE;
-  align-self: center;
   padding-top: 70px;
   margin-bottom: 60px;
 }
 
 .footer {
-  overflow: hidden;
-  padding: 30px 25px 33px 25px;
+  padding: 30px;
   background-color: #324243;
   color: #E2DEDF;
-  text-align: left;
   font-size: 1.7em;
-  font-family: 'Josefin Sans', sans-serif;
-  height: 80px;
+  font-family: var(--secondary-font);
+  height: 95px;
   width: 100%;
   position: absolute;
+}
+.footer > p {
+  display: inline;
+  float: left;
+}
+
+footer span{
+  margin: 0 0 0 auto;
+  display: inline-block;
 }
 
 .fa {
   display: inline-block;
-  font-size: inherit;
+  color: #E2DEDF;
+  font-size: .9rem;
+  margin-right: .3rem;
   float: right;
-  text-rendering: auto;
 }
 
 h1, blockquote {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: var(--secondary-font);
   color: black;
   font-weight: 500;
 }
@@ -54,10 +69,10 @@ h1, blockquote {
 
 .navbar-brand, .navbar-inverse .navbar-nav > li > a {
 	color: #E2DEDF;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: var(--secondary-font);
 	font-size: 1.7em;
 	font-weight: 300;
-	padding: 30px 25px 33px 25px;
+	padding: 30px;
   text-decoration: none;
 }
 
@@ -77,8 +92,19 @@ h1, blockquote {
   padding-bottom: 4%;
 }
 
-form {
-  display: inline-block;
+
+input, textarea {
+  width: 100%;
+  padding: 10px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: .9rem;
+  outline: none;
+}
+
+label {
+  display: block;
+  text-align: left;
 }
 
 .btn-danger{
@@ -112,8 +138,7 @@ form {
 
 #cat {
     width: 100%;
-}​
-
+}
 
 
 
