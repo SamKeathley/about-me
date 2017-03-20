@@ -59,10 +59,15 @@ h1, blockquote {
   background-color: #324243;
 }
 
-.navbar-inverse .navbar-nav>.active>a:focus {
+.navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a {
   color: #E2DEDF;
   background-color: #687C7B;
 }
+
+/*.navbar-inverse .navbar-nav>.active>a {
+  background-color: #324243;
+  color: #E2DEDF;
+}*/
 
 .nav li {
 	display: inline;
@@ -137,7 +142,7 @@ label {
  }
 
 
-#cat {
+#bella {
     width: 100%;
 }
 

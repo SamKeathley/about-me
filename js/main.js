@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
   let testimonials = [{'banana': 'What can I say about the 571B Banana Slicer that hasn\'t already been said about the wheel, penicillin, or the iPhone?',
     'author': '-Karen'},
