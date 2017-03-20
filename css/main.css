@@ -59,6 +59,11 @@ h1, blockquote {
   background-color: #324243;
 }
 
+.navbar-inverse .navbar-nav>.active>a:focus {
+  color: #E2DEDF;
+  background-color: #687C7B;
+}
+
 .nav li {
 	display: inline;
 	color: white;
