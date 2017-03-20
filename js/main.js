@@ -91,7 +91,6 @@ function highlightNavigation() {
 
 $(window).scroll( throttle(highlightNavigation, 100) );
 
-});
 
 function cycle(delay, f, xs) {
    var run = function(i) {
