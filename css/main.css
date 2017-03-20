@@ -43,6 +43,7 @@ footer span{
 .fa {
   color: #E2DEDF;
   margin: 0 15px;
+  text-decoration: none;
 }
 
 h1, blockquote {
