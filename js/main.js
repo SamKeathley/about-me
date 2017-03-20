@@ -105,4 +105,4 @@ function cycle(delay, f, xs) {
    }
   f(xs[0])
   run(1)
-}
+};
