@@ -59,15 +59,11 @@ h1, blockquote {
   background-color: #324243;
 }
 
-.navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a {
+.navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a, .nav-link .active {
   color: #E2DEDF;
   background-color: #687C7B;
 }
 
-/*.navbar-inverse .navbar-nav>.active>a {
-  background-color: #324243;
-  color: #E2DEDF;
-}*/
 
 .nav li {
 	display: inline;
@@ -94,8 +90,8 @@ h1, blockquote {
 }
 
 section {
-  padding-top: 4%;
-  padding-bottom: 4%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 
