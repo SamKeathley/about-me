@@ -65,6 +65,10 @@ h1, blockquote {
   background-color: #687C7B;
 }
 
+ol > li{
+  list-style: none;
+}
+
 
 .nav li {
 	display: inline;
